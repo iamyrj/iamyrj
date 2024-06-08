@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Portfolio</title>
+    <style>
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #000;
+            color: #FFF;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            background-color: #333;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 4px solid #444;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #FFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #111;
+            border: 2px solid #444;
+        }
+        section h2 {
+            font-size: 20px;
+            margin-top: 0;
+        }
+        .portfolio-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            border: 2px solid #444;
+            margin-bottom: 10px;
+        }
+        footer {
+            width: 100%;
+            padding: 20px 0;
+            background-color: #333;
+            text-align: center;
+            border-top: 4px solid #444;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Designer Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my personal webpage! I am a designer with a passion for retro pixel art. My work is inspired by the classic video games and digital aesthetics of the past. I enjoy creating unique and nostalgic designs that bring a sense of fun and nostalgia to any project.</p>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300" alt="Project 1">
+            <p>Project 1: Retro Game Interface</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300" alt="Project 2">
+            <p>Project 2: Pixel Art Animation</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300" alt="Project 3">
+            <p>Project 3: Vintage Poster Design</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Designer Portfolio</p>
+    </footer>
+</body>
+</html>
